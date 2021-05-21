@@ -1,0 +1,15 @@
+.defaulttest{
+	width: 100%;
+	min-height: 100vh;
+	padding:10px;
+	background-color: ;
+	margin: auto;
+	text-align: ;
+}
+
+.externalglobal{
+	border: 3px solid gray;
+	padding: 10px;
+	color:blue;
+	font-size:1.2em;
+}

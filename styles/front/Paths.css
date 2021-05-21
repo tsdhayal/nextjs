@@ -1,0 +1,79 @@
+.paths{
+	width: 100%;
+	margin:auto;
+	background-color:#F6F9F9;
+	color:;
+	padding: 10px 10px;
+}
+ul{
+	/*border: 1px solid red;*/
+	margin:0;
+	padding: 0;
+	float: right;
+	margin-top: 3px;
+
+}
+ul li{
+	list-style: none;
+	display: inline-block;
+	background-color:;
+	/*border: 1px solid yellow;*/
+	position: relative;
+}
+ul li a{
+	font-size: 1em;
+	padding: 5px 10px;
+	text-decoration: none;
+	/*color:white;
+	background-color: blue;*/
+	color: gray;
+	border-radius: 4px;
+}
+ul li a:hover{
+	text-decoration: none;
+	background-color:#3498DB ;
+	/*background-color: rgba(0,0,0,0.1);*/
+	color:white ;
+}
+
+ul li ul{
+	display: none;
+	position: absolute;
+	top: 23px;
+	left: 0;
+	background-color:#F6F9F9;
+	border-radius: 4px;
+	width: 215px;
+}
+
+ul li:hover > ul{
+	display: block;
+}
+ul li ul li {
+	width: 100%;
+	height: 30px;
+	padding: 0;
+}
+ul li ul li a{
+	width: 100%;
+	padding:5px 10px;
+	position: absolute;
+	top: 0px;
+	border-bottom: 1px solid white;
+}
+.navtoggle{
+	float: right;
+	margin-top: 2px;
+	font-size: 1.2em;
+	cursor:pointer;
+	display: none;
+}
+@media screen and (max-width: 772px){
+	.navtoggle{
+		display: none;
+	}
+	.navulfirst{
+		display: block;
+	}
+
+}

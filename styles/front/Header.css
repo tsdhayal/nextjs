@@ -1,0 +1,10 @@
+.header{
+	background:#F8F9F9;
+	width: 100%;
+	padding:10px;
+	color:gray;
+	border-bottom: 0.5px solid #E5E8E8;
+}
+.header span{
+	font-size: 1.3em;
+}
